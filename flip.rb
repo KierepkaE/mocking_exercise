@@ -4,5 +4,6 @@ class ImageFlipper
   end
 
   def flip(file_name)
+    @image_processor.flip(file_name)
   end
 end
